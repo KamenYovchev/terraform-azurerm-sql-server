@@ -12,6 +12,16 @@ variable storage_account_access_key_is_secondary {
     default = true
 }
 variable retention_in_days {}
+variable "rule_names" {
+  type = list(string)
+}
+variable "start_ip" {
+  type = list(string)
+}
+variable "end_ip" {
+  type = list(string)
+}
+variable "sql_server_name" {}
 ##################################################################################
 # LOCALS
 ##################################################################################

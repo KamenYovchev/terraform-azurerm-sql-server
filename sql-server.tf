@@ -14,3 +14,4 @@ resource "azurerm_sql_server" "sql-server" {
     retention_in_days                       = var.retention_in_days
   }
 }
+
