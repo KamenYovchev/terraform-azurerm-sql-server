@@ -2,8 +2,12 @@
 variable name {}
 variable resource_group_name {}
 variable location {}
-variable administrator_login {}
-variable administrator_login_password {}
+variable administrator_login {
+  type = string
+}
+variable administrator_login_password {
+  type = string
+}
 variable sql_server_version {}
 variable storage_endpoint {}
 variable storage_account_access_key {}
